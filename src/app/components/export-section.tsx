@@ -83,7 +83,7 @@ export default function ExportSection() {
 
   // Layout variables
   const layout = {
-    mapContainer: 'relative w-full h-64 sm:h-80 lg:h-160 mb-8 bg-gray-100',
+    mapContainer: 'relative w-full h-64 sm:h-80 lg:h-160 mb-8 ',
     statItem: 'text-center',
     statNumber: 'w-24 sm:w-32 lg:w-48 mx-auto', // Fixed width to prevent layout shift
     buttonContainer: 'flex justify-center mt-8',

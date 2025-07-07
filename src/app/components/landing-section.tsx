@@ -27,7 +27,7 @@ export default function LandingSection() {
   const spacing = {
     sectionPadding: 'px-4 py-16 sm:px-6 lg:px-8 lg:py-18',
     containerSpacing: 'max-w-7xl mx-auto',
-    gridGap: 'gap-8 lg:gap-12',
+    gridGap: 'gap-8 lg:gap-10',
     textSpacing: 'space-y-6',
     buttonMargin: 'mt-8',
   };
@@ -77,7 +77,7 @@ export default function LandingSection() {
   };
 
   return (
-    <section ref={sectionRef} className={`bg-[#FAFAFA] ${spacing.sectionPadding}`}>
+    <section ref={sectionRef} className={`bg-white ${spacing.sectionPadding}`}>
       <div className={spacing.containerSpacing}>
         <div className={`${layout.container} ${spacing.gridGap}`}>
           {/* Text Content */}

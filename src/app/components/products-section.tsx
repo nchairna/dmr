@@ -75,8 +75,7 @@ export default function ProductsSection() {
   // Color variables
   const colors = {
     background: 'bg-white',
-    cardBackground: 'bg-gray-50 hover:bg-gray-100',
-    button: 'bg-white border-2 border-[#ED1B2F] text-[#ED1B2F] hover:bg-[#ED1B2F] hover:text-white',
+    button: 'bg-white border-1 border-[#ED1B2F] text-[#ED1B2F] hover:bg-[#ED1B2F] hover:text-white',
   };
 
   // Card styling variables
@@ -107,7 +106,7 @@ export default function ProductsSection() {
           {products.map((product) => (
             <div key={product.id} className={`${layout.cardContainer} ${animations.card(product.id - 1)}`}>
               {/* Product Card */}
-              <div className={`${cardStyles.wrapper} ${colors.cardBackground}`}>
+              <div className={`${cardStyles.wrapper}`}>
                 {/* Product Image */}
                 <div className={layout.imageContainer}>
                   <Image
