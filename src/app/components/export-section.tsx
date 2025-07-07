@@ -83,7 +83,7 @@ export default function ExportSection() {
 
   // Layout variables
   const layout = {
-    mapContainer: 'relative w-full h-64 sm:h-80 lg:h-160 mb-8 ',
+    mapContainer: 'relative w-full h-64 sm:h-80 lg:h-160 mb-8 bg-white',
     statItem: 'text-center',
     statNumber: 'w-24 sm:w-32 lg:w-48 mx-auto', // Fixed width to prevent layout shift
     buttonContainer: 'flex justify-center mt-8',
@@ -131,7 +131,7 @@ export default function ExportSection() {
               src="/assets/map.png"
               alt="World Map"
               fill
-              className="object-contain opacity-90"
+              className="object-contain opacity-100"
               priority
               quality={75}
               sizes="100vw"
@@ -144,8 +144,8 @@ export default function ExportSection() {
                 console.log('Image loaded successfully');
               }}
             />
-            {/* Fallback pattern if image doesn't load */}
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-100 via-green-100 to-blue-100 opacity-30"></div>
+           
+            
           </div>
 
           {/* Overlay Content */}
