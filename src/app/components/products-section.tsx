@@ -75,7 +75,7 @@ export default function ProductsSection() {
   // Color variables
   const colors = {
     background: 'bg-white',
-    button: 'bg-white border-1 border-[#ED1B2F] text-[#ED1B2F] hover:bg-[#ED1B2F] hover:text-white',
+    button: 'bg-white border-1 lg:border-2 border-[#ED1B2F] text-[#ED1B2F] hover:bg-[#ED1B2F] hover:text-white',
   };
 
   // Card styling variables
